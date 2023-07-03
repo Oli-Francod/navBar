@@ -93,7 +93,7 @@ main {
     display         : flex;
     justify-content : space-around;
     align-items     : center;
-    border-radius   : 18px;
+    border-radius   : 13px;
 }
 
 .hero-info {
@@ -168,14 +168,13 @@ main {
     flex-direction  : column;
     align-items     : center;
     justify-content : center;
-    border-radius   : 18px;
+    border-radius   : 13px;
 
 }
 
 .mejores-hero h1 {
-    font-family: @import url('https://fonts.cdnfonts.com/css/batman-forever');
 
-    color    : #ffbc0e;
+    color    : #ecf38c;
     font-size: 35px;
     margin   : 20px 10px;
 
@@ -185,7 +184,7 @@ main {
 
 .mejores-hero p {
     font-family: @import url('https://fonts.cdnfonts.com/css/batman-forever');
-    color      : #ffbc0e;
+    color      : #ecf38c;
     width      : 85%;
     font-size  : 15px;
 
