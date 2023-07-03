@@ -1,13 +1,13 @@
 * {
-    box-sizing : 0;
-    margin     : 0;
-    padding    : 0;
-    font-family: sans-serif, monospace;
-    font-size  : 20px;
+    box-sizing    : 0;
+    margin        : 0;
+    padding       : 0;
+    /* font-family: sans-serif, monospace; */
+    font-size     : 20px;
 }
 
 body {
-    background-color: #290101;
+    background-color: #ecf38c;
 }
 
 .header {
@@ -48,12 +48,12 @@ body {
 
 .header .nav-link a {
     font-size      : 700;
-    color          : #ececec;
+    color          : #ecf38c;
     text-decoration: none;
 }
 
 .header .nav-link a:hover {
-    color: #ffbc0e;
+    color: #ecf38c;
 }
 
 .header .btn button {
@@ -69,6 +69,126 @@ body {
 
 .header .btn button:hover {
     background-color: #e2f1f8;
-    color           : #ffbc0e;
+    color           : #ecf38c;
     transform       : scale(1.1);
+}
+
+/* :::::::::PORTADA ::::::::::::: */
+
+main {
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
+    justify-content: center;
+    width          : 100%;
+}
+
+#hero {
+
+    background-color: #000000;
+    opacity         : 0.8;
+    max-width       : 890px;
+    margin-top      : 65px;
+    padding         : 70px 0;
+    display         : flex;
+    justify-content : space-around;
+    align-items     : center;
+    border-radius   : 18px;
+}
+
+.hero-info {
+    display       : flex;
+    flex-direction: column;
+    gap           : 20px;
+    width         : 50%;
+
+}
+
+.hero-info h2 {
+    font-family: @import url('https://fonts.cdnfonts.com/css/batman-forever');
+    color      : #ecf38c;
+    font-size  : 35px;
+    font-weight: 800;
+    width      : 80%;
+    min-width  : 500px;
+}
+
+.hero-info p {
+    color    : #ecf38c;
+    font-size: 15px;
+}
+
+.info-adicional {
+    align-items    : center;
+    justify-content: space-around;
+    display        : flex;
+
+}
+
+.logo-hero img {
+    height    : 150px;
+    width     : auto;
+    transition: all 0.3s;
+
+}
+
+.logo-hero img:hover {
+    transform : scale(1.2);
+    transition: all 0.3s ease;
+}
+
+
+.info-adicional a {
+    font-weight      : 200;
+    text-decoration  : none;
+    color            : #fafafa;
+    padding          : 9px 25px;
+    background       : #000000;
+    border           : none;
+    border-radius    : 10px;
+    cursor           : pointer;
+    /*transition     : all 0.3s ease 0s;*/
+}
+
+.info-adicional a:hover {
+    background-color: #ecf38c;
+    color           : #000000;
+    transform       : scale(1.2);
+    transition      : all 0.3s ease 0s;
+    font-size       : 15px
+}
+
+.mejores-hero {
+    background-color: #000000;
+    opacity         : 0.8;
+    max-width       : 890px;
+    margin          : 65px 65px;
+    padding         : 70px 0;
+    display         : flex;
+    flex-direction  : column;
+    align-items     : center;
+    justify-content : center;
+    border-radius   : 18px;
+
+}
+
+.mejores-hero h1 {
+    font-family: @import url('https://fonts.cdnfonts.com/css/batman-forever');
+
+    color    : #ffbc0e;
+    font-size: 35px;
+    margin   : 20px 10px;
+
+
+}
+
+
+.mejores-hero p {
+    font-family: @import url('https://fonts.cdnfonts.com/css/batman-forever');
+    color      : #ffbc0e;
+    width      : 85%;
+    font-size  : 15px;
+
+
+
 }
