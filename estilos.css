@@ -13,12 +13,13 @@ body {
 }
 
 .header {
-    background-color: #dd2248;
-    display         : flex;
-    justify-content : space-between;
-    align-items     : center;
-    height          : 70px;
-    padding         : 10px;
+    /* background-color: #dd2248; */
+    background     : linear-gradient(to bottom, #dd2248, #ee4a6b);
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    height         : 70px;
+    padding        : 10px;
 
 }
 
@@ -84,14 +85,15 @@ main {
 }
 
 #hero {
-    background-color: #000000;
-    opacity         : 0.5;
-    padding         : 90px;
-    margin          : 20px auto;
-    display         : flex;
-    align-items     : center;
-    justify-content : center;
-    border-radius   : 13px;
+    /* background-color: #000000; */
+    background     : linear-gradient(to bottom, #000000, #040c0f);
+    opacity        : 0.5;
+    padding        : 90px;
+    margin         : 20px auto;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    border-radius  : 13px;
 
 }
 
@@ -305,8 +307,12 @@ main {
     padding      : 20px;
     border-radius: 30px;
     border       : 5px #dd2248;
+    opacity      : 0.5;
+
+
 
 }
+
 
 .fa-brands {
     color        : teal;
